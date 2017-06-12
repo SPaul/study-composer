@@ -1,4 +1,10 @@
 {
     "name" : "spaul/study-composer",
-    "repository": "https://github.com/spaul/study-composer"
+    "repository": "https://github.com/spaul/study-composer",
+    "autoload": {
+        "psr-4": {
+            "cs\\": "src/",
+            "Vendor\\cs\\": ""
+        }
+    }
 }
