@@ -1,5 +1,7 @@
 {
     "name" : "spaul/study-composer",
+    "description": "This is a simple empty package for education purposes.",
+    "version": "1.0.0",
     "autoload": {
         "classmap": ["src/"]
     }
