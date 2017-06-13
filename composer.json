@@ -3,6 +3,6 @@
     "description": "This is a simple empty package for education purposes.",
     "version": "1.0.0",
     "autoload": {
-        "classmap": ["src/"]
+        "psr-4": {"CS\\": "src/"}
     }
 }
